@@ -26,7 +26,6 @@ function CardInfo(props) {
   ];
 
   const [selectedColor, setSelectedColor] = useState();
-  const { updateCard, boardId } = props;
   const [values, setValues] = useState({
     ...props.card,
   });
@@ -114,11 +113,9 @@ function CardInfo(props) {
     });
   };
 
-  
-  
   useEffect(() => {
-    if (updateCard) updateCard(boardId, values.id, values);
-  }, [updateCard, boardId, values]);
+    if (props.updateCard) props.updateCard(props.boardId, values.id, values);
+  }, [values]);
 
   return (
     <Modal onClose={props.onClose}>
@@ -240,7 +237,7 @@ function CardInfo(props) {
             ))}
           </div>
           <Editable
-            text={"Add Effort Required"}
+            text={"Add Effort"}
             placeholder="Enter Effort in hours"
             onSubmit={addTask}
           />
