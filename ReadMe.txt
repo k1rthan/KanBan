@@ -8,3 +8,5 @@ npm install react-feather react-beautiful-dnd
 npm install react-scripts@latest
 
 npm start
+
+Node version used: v20.14.0
