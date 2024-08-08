@@ -31,7 +31,7 @@ OUTPUT IMAGES:
 
 <img width="1397" alt="kanban" src="https://github.com/user-attachments/assets/703c8530-859b-4f41-9d76-ba342ea7ecc5">**
 
-<img width="1470" alt="drag" src="https://github.com/user-attachments/assets/6a4d162f-108e-4f2e-acb6-c426db906a34">
+<img width="1470" alt="card-info" src="https://github.com/user-attachments/assets/88874090-a429-4c1c-adf6-151667ffc39e">
 
 <img width="1470" alt="drag" src="https://github.com/user-attachments/assets/b74c59be-3c07-46f5-9252-fca5154f46f4">
 
