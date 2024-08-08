@@ -27,6 +27,9 @@ npm start
 export NODE_OPTIONS=--openssl-legacy-provider
 npm start
 
+
+
+
 OUTPUT IMAGES:
 
 <img width="1397" alt="kanban" src="https://github.com/user-attachments/assets/703c8530-859b-4f41-9d76-ba342ea7ecc5">**
