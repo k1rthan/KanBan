@@ -24,7 +24,7 @@
   border-radius: 30px;
   padding: 4px 12px;
   background-color: gray;
-  color: #faf9f9;
+  color: #6c6b6b;
   width: fit-content;
   align-items: center;
 }
@@ -50,7 +50,6 @@
   text-align: left;
   width: fit-content;
   font-size: 14px;
-  font-weight: bold;
   margin: 0;
   display: flex;
   border-radius: 40px;
@@ -67,7 +66,7 @@
 
 .card_title {
   flex: 1;
-  font-weight: bold;
+  
   font-size: 1rem;
   line-height: 1.875rem;
 }
@@ -82,11 +81,10 @@
 .card_footer_item {
   border-radius: 40px;
   padding: 4px 12px;
-  background-color: #f8f8f8;
+ 
   color: #1877F2;
   width: fit-content;
   font-size: 14px;
-  font-weight: bold;
   line-height: 21px;
   display: flex;
   gap: 10px;

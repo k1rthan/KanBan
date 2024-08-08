@@ -1,9 +1,11 @@
 import React, { useEffect, useState } from "react";
 
 import Board from "./Components/Board/Board";
+//import { FaSearch, FaBell, FaCog } from "react-icons/fa";
 
 import "./App.css";
 import Editable from "./Components/Editabled/Editable";
+//import { Upload } from "react-feather";
 
 function App() {
   const [boards, setBoards] = useState(
@@ -138,7 +140,9 @@ const dragEntered = (bid, cid) => {
     <div className="app">
       <div className="app_nav">
         <h1>Kanban Board</h1>
+       
       </div>
+      
       <div className="app_boards_container">
         <div className="app_boards">
           {boards.map((item) => (
@@ -158,7 +162,7 @@ const dragEntered = (bid, cid) => {
               displayClass="app_boards_add-board"
               editClass="app_boards_add-board_edit"
               placeholder="Enter Section Name"
-              text="Add Section"
+              text="+ Add section"
               buttonText="Add Section"
               onSubmit={addboardHandler}
             />

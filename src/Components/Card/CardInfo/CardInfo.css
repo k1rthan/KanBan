@@ -7,6 +7,7 @@
   width: fit-content;
   max-width: 650px;
   height: fit-content;
+   
 }
 
 .cardinfo_box {
@@ -36,16 +37,18 @@
   display: flex;
   gap: 10px;
   flex-wrap: wrap;
+  
 }
 
 .cardinfo_box_labels label {
-  border-radius: 40px;
+  border-radius: 400px;
   background-color: gray;
-  color: #fff;
+  color: #121212;
   padding: 4px 8px;
   display: flex;
   align-items: center;
   gap: 5px;
+  
 }
 
 .cardinfo_box_labels label svg {

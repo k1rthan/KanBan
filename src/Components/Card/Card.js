@@ -85,6 +85,7 @@ function Card(props) {
           {date && (
             <p className="card_footer_item">
               <Clock className="card_footer_icon" />
+              
               {formatDate(date)}
             </p>
           )}

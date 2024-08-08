@@ -15,15 +15,7 @@ import Editable from "../../Editabled/Editable";
 import "./CardInfo.css";
 
 function CardInfo(props) {
-  const colors = [
-    "#a8193d",
-    "#4fcc25",
-    "#1ebffa",
-    "#8da377",
-    "#9975bd",
-    "#cf61a1",
-    "#240959",
-  ];
+  const colors = [ "#f8f8f8", ];
 
   const [selectedColor, setSelectedColor] = useState();
   const [values, setValues] = useState({
