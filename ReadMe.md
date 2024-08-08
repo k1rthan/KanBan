@@ -38,6 +38,8 @@ OUTPUT IMAGES:
 
 <img width="1470" alt="drag" src="https://github.com/user-attachments/assets/b74c59be-3c07-46f5-9252-fca5154f46f4">
 
+<img width="1470" alt="missed" src="https://github.com/user-attachments/assets/de41ef63-d0d5-4175-b3ec-b93d6aa39276">
+
 
 
 
