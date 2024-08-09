@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from "react";
 
 import Board from "./Components/Board/Board";
-//import { FaSearch, FaBell, FaCog } from "react-icons/fa";
+
 
 import "./App.css";
 import Editable from "./Components/Editabled/Editable";
-//import { Upload } from "react-feather";
+
 
 function App() {
   const [boards, setBoards] = useState(
@@ -139,7 +139,7 @@ const dragEntered = (bid, cid) => {
   return (
     <div className="app">
       <div className="app_nav">
-        <h1>Kanban Board</h1>
+        <h1>KanBan Board</h1>
        
       </div>
       
