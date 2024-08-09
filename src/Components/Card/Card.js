@@ -29,8 +29,7 @@ function Card(props) {
       return <span style={{ color: 'black' }}>Today</span>;
     } else if (date.toDateString() === tomorrow.toDateString()) {
       return <span style={{ color: '#0579f4' }}>Tomorrow</span>;;
-    } //else if (date < yesterday) {
-      //return <span style={{ color: 'red' }}>Yesterday</span>;}
+    } 
      else {
       const months = [
         "Jan", "Feb", "Mar", "Apr", "May", "Jun",

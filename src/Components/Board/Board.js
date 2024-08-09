@@ -7,7 +7,7 @@ import Editable from "../Editabled/Editable";
 
 import "./Board.css";
 //import "src/App.js";
-//<span>{props.board?.cards?.length || 0}</span> -card count
+
 function Board(props) {
   const [showDropdown, setShowDropdown] = useState(false);
 
