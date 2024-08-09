@@ -32,13 +32,18 @@ Run This
 
 OUTPUT IMAGES:
 
-<img width="1397" alt="kanban" src="https://github.com/user-attachments/assets/703c8530-859b-4f41-9d76-ba342ea7ecc5">**
 
-<img width="1470" alt="card-info" src="https://github.com/user-attachments/assets/88874090-a429-4c1c-adf6-151667ffc39e">
 
-<img width="1470" alt="drag" src="https://github.com/user-attachments/assets/b74c59be-3c07-46f5-9252-fca5154f46f4">
+<img width="1336" alt="image" src="https://github.com/user-attachments/assets/291cb293-107f-4b64-93a3-1974b00eae4a">
 
-<img width="1470" alt="missed" src="https://github.com/user-attachments/assets/de41ef63-d0d5-4175-b3ec-b93d6aa39276">
+
+
+![kanban1](https://github.com/user-attachments/assets/f7ba77d4-03d0-442c-a597-f8830baf6b21)
+
+
+<img width="1470" alt="kanban3" src="https://github.com/user-attachments/assets/64a2504f-7d0b-400d-af78-89343df4c70a">
+
+
 
 
 
