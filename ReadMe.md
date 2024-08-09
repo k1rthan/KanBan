@@ -1,5 +1,5 @@
 
-Simple KanBan app that can be used to update status details of ongoing tasks,
+Simple KanBan app that can be used to update status details of tasks,
 uses HTML, CSS, ReactJS, NodeJS.
 
 Node version used: v16.20.2 (recommend using this).
