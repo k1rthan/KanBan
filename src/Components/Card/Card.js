@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import { Clock, MoreHorizontal } from "react-feather";
+import { MoreHorizontal } from "react-feather";
+import {ReactComponent as PFP} from "../images/pfp2.svg"
 import Dropdown from "../Dropdown/Dropdown";
 import CardInfo from "./CardInfo/CardInfo";
 import "./Card.css";
@@ -19,18 +20,18 @@ function Card(props) {
     const today = new Date();
     const yesterday = new Date(today);
     const tomorrow = new Date(today);
-    //yesterday.setDate(today.getDate() - 1);
+    yesterday.setDate(today.getDate() - 1);
     tomorrow.setDate(today.getDate() + 1);
 
-    //if (date.toDateString() === yesterday.toDateString()) {
-      //return "Yesterday"; }
+    if (date.toDateString() === yesterday.toDateString()) {
+      return <span style={{ color: 'red' }}>Yesterday</span>; }
       if (date.toDateString() === today.toDateString()) {
-      return "Today";
+      return <span style={{ color: 'black' }}>Today</span>;
     } else if (date.toDateString() === tomorrow.toDateString()) {
-      return "Tomorrow";
-    } else if (date < yesterday) {
-      return <span style={{ color: 'red' }}>Missed</span>;
-    } else {
+      return <span style={{ color: '#0579f4' }}>Tomorrow</span>;;
+    } //else if (date < yesterday) {
+      //return <span style={{ color: 'red' }}>Yesterday</span>;}
+     else {
       const months = [
         "Jan", "Feb", "Mar", "Apr", "May", "Jun",
         "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"
@@ -84,8 +85,8 @@ function Card(props) {
         <div className="card_footer">
           {date && (
             <p className="card_footer_item">
-              <Clock className="card_footer_icon" />
               
+              <PFP className="card_footer_icon"/>
               {formatDate(date)}
             </p>
           )}

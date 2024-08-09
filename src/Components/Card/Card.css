@@ -40,6 +40,9 @@
   position: absolute;
   bottom: 5px;
   right: 25px;
+  color: gray;
+  font-size: 8px;
+  
 }
 
 .card:hover .card_top_more {
@@ -50,10 +53,9 @@
   text-align: left;
   width: fit-content;
   font-size: 14px;
-  margin: 0;
   display: flex;
   border-radius: 40px;
-  padding: 4px 12px;
+  padding: 4px 8px;
   background-color: #f8f8f8;
   color: #000;
 }
@@ -66,7 +68,7 @@
 
 .card_title {
   flex: 1;
-  
+  padding: 4px 8px;
   font-size: 1rem;
   line-height: 1.875rem;
 }
@@ -80,9 +82,9 @@
 
 .card_footer_item {
   border-radius: 40px;
-  padding: 4px 12px;
- 
-  color: #1877F2;
+  padding: 4px 8px;
+  font-weight: bold;
+  color: gray;
   width: fit-content;
   font-size: 14px;
   line-height: 21px;

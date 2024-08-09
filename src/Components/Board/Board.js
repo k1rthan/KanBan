@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { MoreHorizontal, Plus } from "react-feather";
+import { MoreHorizontal} from "react-feather";
 
 import Card from "../Card/Card";
 import Dropdown from "../Dropdown/Dropdown";
@@ -7,29 +7,28 @@ import Editable from "../Editabled/Editable";
 
 import "./Board.css";
 //import "src/App.js";
-
+//<span>{props.board?.cards?.length || 0}</span> -card count
 function Board(props) {
   const [showDropdown, setShowDropdown] = useState(false);
 
   return (
-    <div className="board">
+    <div>
       <div className="board_header">
         <p className="board_header_title">
           {props.board?.title}
-          <span>{props.board?.cards?.length || 0}</span>
         </p>
-        
-        <div className="board_header_title_plus">
-        <Plus />
-       
+  
+        <div
+          className="board_header_title_plus"
+          onClick={() => props.addCard(props.board?.id, "New Task")}
+        >
+          +
         </div>
-        
+  
         <div
           className="board_header_title_more"
           onClick={() => setShowDropdown(true)}
         >
-           
-
           <MoreHorizontal />
           {showDropdown && (
             <Dropdown
@@ -41,6 +40,7 @@ function Board(props) {
           )}
         </div>
       </div>
+      <div className="board">
       <div className="board_cards custom-scroll">
         {props.board?.cards?.map((item) => (
           <Card
@@ -62,6 +62,7 @@ function Board(props) {
           onSubmit={(value) => props.addCard(props.board?.id, value)}
         />
       </div>
+    </div>
     </div>
   );
 }
